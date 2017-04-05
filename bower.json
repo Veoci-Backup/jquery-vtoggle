@@ -17,7 +17,7 @@
     "jquery-vhide",
     "jquery-vtoggle"
   ],
-  "homepage": "https://github.com/GreywallSoftware/vShow",
+  "homepage": "https://github.com/GreywallSoftware/jquery-vtoggle",
   "ignore": [
     "**/.*",
     "node_modules",
