@@ -2,10 +2,12 @@
 The fastest jQuery plugin for showing/hiding elements.
 
 This is meant to be a drop in replacement for jQuery's `.show()` and `.hide()`.
+
 ## Installation
 Install the latest version:    
 
     npm install jquery.vtoggle
+    
 ## Usage
 `vShow()` will show the selected element(s) as display block by adding a special class called `display-block`.
 ``` js
