@@ -1,0 +1,28 @@
+{
+  "name": "jquery-vtoggle",
+  "description": "Fastest jQuery plugin for toggling elements",
+  "main": "jquery.vToggle.js",
+  "authors": [
+    "Geoff Baum"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vshow",
+    "vhide",
+    "vtoggle",
+    "vShow",
+    "vHide",
+    "vToggle",
+    "jquery-vshow",
+    "jquery-vhide",
+    "jquery-vtoggle"
+  ],
+  "homepage": "https://github.com/GreywallSoftware/vShow",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
