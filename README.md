@@ -1,2 +1,2 @@
-# vShow
-Fastest jQuery plugin to showing/hiding elements
+# jQuery.vShow
+Fastest jQuery plugin for showing/hiding elements
