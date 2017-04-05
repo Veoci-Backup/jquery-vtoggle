@@ -2,9 +2,9 @@
   "name": "jquery-vtoggle",
   "description": "Fastest jQuery plugin for toggling elements",
   "keywords": ["vshow", "vhide", "vtoggle", "vShow", "vHide", "vToggle","jquery-vshow", "jquery-vhide", "jquery-vtoggle"],
-  "homepage": "https://github.com/GreywallSoftware/jquery-vShow",
+  "homepage": "https://github.com/GreywallSoftware/jquery-vtoggle",
   "bugs":{
-    "url" : "https://github.com/GreywallSoftware/jquery-vShow/issues",
+    "url" : "https://github.com/GreywallSoftware/jquery-vtoggle/issues",
     "email" : "dev@greywallsoftware.com"
   },
   "version": "1.0.0",
