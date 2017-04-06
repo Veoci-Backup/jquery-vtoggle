@@ -27,7 +27,7 @@
             var name = this[l].className || '',
                 oldName = name;
             try {
-                if(name.indexOf('display-none') == -1) {
+                if(name.indexOf('display-none') === -1) {
                     name += ' display-none';
                 }
                 name = name
@@ -50,7 +50,7 @@
      *
      * @param {type} [type]
      *      - none, inline, inline-block
-     * @returns $(element)
+     * @returns {jQuery}
      */
     $.fn.vShow = function (type) {
         if(!this[0]) {
@@ -69,17 +69,17 @@
 
                 switch(type) {
                     case 'inline':
-                        if(name.indexOf('display-inline') == -1) {
+                        if(name.indexOf('display-inline') === -1) {
                             name += ' display-inline';
                         }
                         break;
                     case 'inline-block':
-                        if(name.indexOf('display-inline-block') == -1) {
+                        if(name.indexOf('display-inline-block') === -1) {
                             name += ' display-inline-block';
                         }
                         break;
                     default:
-                        if(name.indexOf('display-block') == -1) {
+                        if(name.indexOf('display-block') === -1) {
                             name += ' display-block';
                         }
                         break;
