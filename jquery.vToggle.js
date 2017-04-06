@@ -4,7 +4,14 @@
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as anonymous module.
-        define(['jquery'], factory);
+        if(window.jQuery) {
+            // jQuery is defined globally, just use it
+            factory(jQuery);
+            define([]);
+        } else {
+            // require it in
+            define(['jquery'], factory);
+        }
     } else if (typeof exports === 'object') {
         // Node / CommonJS
         factory(require('jquery'));
