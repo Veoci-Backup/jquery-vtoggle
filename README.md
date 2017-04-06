@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/GreywallSoftware/jquery-vtoggle.svg?branch=master)](https://travis-ci.org/GreywallSoftware/jquery-vtoggle)
+
 # jQuery.vToggle
 The fastest jQuery plugin for showing/hiding elements.
 
