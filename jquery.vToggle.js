@@ -1,7 +1,18 @@
 /**
  * jQuery Plugin to quickly show/hide elements
  */
-(function ($) {
+(function (factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as anonymous module.
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object') {
+        // Node / CommonJS
+        factory(require('jquery'));
+    } else {
+        // Browser globals.
+        factory(jQuery);
+    }
+})(function ($) {
     /**
      * Hides an element
      * @returns {jQuery}
@@ -102,4 +113,4 @@
         }
         return this;
     };
-})(jQuery);
+});
