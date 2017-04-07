@@ -3,5 +3,6 @@ node_js:
   - "node"
 test:
   override:
-    - npm run test
+    - grunt
+    - mocha --reporter mocha-circleci-reporter
     - if [[ -e test-results.xml ]]; then cp test-results.xml $CIRCLE_TEST_REPORTS/test-results.xml; fi
