@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/GreywallSoftware/jquery-vtoggle.svg?branch=master)](https://travis-ci.org/GreywallSoftware/jquery-vtoggle)
-[![Build Status](https://travis-ci.org/GreywallSoftware/jquery-vtoggle.svg?branch=master)](https://circleci.com/gh/gabaum10/jquery-vtoggle.svg?style=shield&circle-token=:circle-token)
+[![CircleCI](https://circleci.com/gh/GreywallSoftware/jquery-vtoggle.svg?style=svg)](https://circleci.com/gh/GreywallSoftware/jquery-vtoggle)
 
 # jQuery.vToggle
 The fastest jQuery plugin for showing/hiding elements.
