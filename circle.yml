@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - "node"
-before_script:
-  - npm install grunt-cli -g
-script:
-  - grunt
-  - mocha
+machine:
+  environment:
+      MOCHA_FILE: "$CIRCLE_TEST_REPORTS/test-results.xml"

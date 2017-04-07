@@ -31,6 +31,10 @@
     "jquery": "3.1.1",
     "jsdom": "9.8.0",
     "jshint-stylish": "2.2.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "mocha-circleci-reporter": "0.0.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter mocha-circleci-reporter test/*.spec.js"
   }
 }
